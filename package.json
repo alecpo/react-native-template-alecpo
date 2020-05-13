@@ -1,0 +1,10 @@
+{
+  "name": "react-native-template-alecpo",
+  "version": "0.0.5",
+  "files": [
+    "template",
+    "template.config.js"
+  ],
+  "description": "AleCPO React Native Template",
+  "author": "Alessandro Oliveira <alessandro_vzp@hotmail.com>"
+}
