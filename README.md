@@ -1,13 +1,13 @@
 
 # react-native-template-alecpo
 
-## Thanks for coming, but first...~~let's take a selfie!~~
+## ⚠️ Thanks for coming, but first...~~let's take a selfie!🤳🏻~~
 You will need to ensure that the React Native development environment is working correctly. If you haven't already, I suggest taking a look [here](https://reactnative.dev/docs/environment-setup) before continuing.
 
-## About the project
+## ⚛️ About the project 
 The intent of this project is to provide a custom template for React Native developers that wishes to start a brand new application, not by the begin, but having a pre-built project with the most commons and populars libraries and a reasonable pattern for the folder hierarchy.
 
-## How many different libraries do we have?
+## 🤔 How many different libraries do we have?
 
  - [@react-navigation/native](https://reactnavigation.org/docs/getting-started) → Provide a powerful, easy to use and completely customizable screens navigation in React Native;
  - [@react-navigation/stack](https://reactnavigation.org/docs/stack-navigator) → Provide a stack navigation model to use on react navigation;
@@ -23,10 +23,46 @@ The intent of this project is to provide a custom template for React Native deve
  - [styled-components](https://styled-components.com/) → Have a clean code with native css styling creating custom natives components;
  - [yup](https://github.com/jquense/yup) → Validation JS tool to improve the use of Formik library;
  
- ## How to use it
+ ## 🙏 How to use it
  It's simple, just run the command bellow on your workspace directory:
 
     npx react-native init MyProjectName --template react-native-template-alecpo
 
-## The folder hierarchy explanation
- 
+## 🗂 The folder hierarchy explanation
+
+** ⚠️ This topic only describes that folders and files that diverges from the original React Native template.**
+
+ ```bash
+rocketseat-advanced
+├── src/
+│   ├── assets/
+│   │   └── img/
+│   │   └── svgAnimations/
+│   ├── components/
+│   │   └── DivisorLine.js
+│   │   └── Icon.js
+│   │   └── Label.js
+│   │   └── SubmitButton.js
+│   ├── config/
+│   │   └── api.js
+│   ├── navigation/
+│   │   └── RootStackNavigator.js
+│   ├── screens/
+│   │   └── HomeScreen.js
+│   ├── store/
+│   │   └── actions/
+│   │   └── reducers
+│   │   └── storeConfig.js
+│   ├── utils/
+│   │   └── customPropTypes/
+│   │   └── enums/
+│   │   └── colors.js
+│   │   └── spacing.js
+│   │   └── strings.js
+│   │   └── typography.js
+├── .prettierrc.json
+├── babel.config.js
+├── jsconfig.json
+├── LICENSE
+└── README.md
+```
