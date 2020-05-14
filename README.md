@@ -30,7 +30,7 @@ The intent of this project is to provide a custom template for React Native deve
 
 ## 🗂 The folder hierarchy explanation
 
-** ⚠️ This topic only describes that folders and files that diverges from the original React Native template.**
+**⚠️ This topic only describes that folders and files that diverges from the original React Native template.**
 
  ```bash
 rocketseat-advanced
