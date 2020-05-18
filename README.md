@@ -33,36 +33,36 @@ The intent of this project is to provide a custom template for React Native deve
 **⚠️ This topic only describes that folders and files that diverges from the original React Native template.**
 
  ```bash
-rocketseat-advanced
+alecpo-template
 ├── src/
-│   ├── assets/
-│   │   └── img/
-│   │   └── svgAnimations/
-│   ├── components/
-│   │   └── DivisorLine.js
-│   │   └── Icon.js
-│   │   └── Label.js
-│   │   └── SubmitButton.js
-│   ├── config/
-│   │   └── api.js
-│   ├── navigation/
-│   │   └── RootStackNavigator.js
-│   ├── screens/
-│   │   └── HomeScreen.js
-│   ├── store/
-│   │   └── actions/
-│   │   └── reducers
-│   │   └── storeConfig.js
-│   ├── utils/
-│   │   └── customPropTypes/
-│   │   └── enums/
-│   │   └── colors.js
-│   │   └── spacing.js
-│   │   └── strings.js
-│   │   └── typography.js
-├── .prettierrc.json
-├── babel.config.js
-├── jsconfig.json
+│   ├── assets/ # Use this folder to storage any kind of assets required by your app
+│   │   └── img/ # Feel free to divide the images into subfolders 
+│   │   └── svgAnimations/ # svg folder for animations (e.g: used by Lottie library)
+│   ├── components/ # Put every kind of reusable custom components here.
+│   │   └── DivisorLine.js # custom component to divide sections or elements in a list.
+│   │   └── Icon.js # custom provided by react-native-vector-icons
+│   │   └── Label.js # custom text
+│   │   └── SubmitButton.js # custom submit button
+│   ├── config/ # Folder to the configurations files (e.g: API constants file, Reactotron, i18n, etc).
+│   │   └── api.js # file to define the API's and endpoints constants.
+│   ├── navigation/ # Folder for the "navigators" of React Navigation library. Use to structure the folder hierarchy. (Hint: Do this with advance planning).
+│   │   └── RootStackNavigator.js # initial navigator of React Nativagation library
+│   ├── screens/ # Folder for ALL the screens files.
+│   │   └── HomeScreen.js # Initial screen
+│   ├── store/ # Follow the structure to use Redux in your project.
+│   │   └── actions/ # Action types and action creators files
+│   │   └── reducers/ # "Reducer's" files
+│   │   └── storeConfig.js # "store" settings file.
+│   ├── utils/ # Helpers for your project
+│   │   └── customPropTypes/ # This folder contains the customs PropTypes that you probably will need.
+│   │   └── enums/ # Enums folders.
+│   │   └── colors.js # File to specify your application's color palette.
+│   │   └── spacing.js # Generic pattern of spacings to your project
+│   │   └── strings.js # Strings constants used to prevent syntax mistakes and provide a scalable internationalization.
+│   │   └── typography.js # Constants used to customize the "Label" component.
+├── .prettierrc.json # Used to indent your project automatically.
+├── babel.config.js # Allows you to use an alias on import custom modules or components (e.g: #/components/Label)
+├── jsconfig.json # Offers autocomplete for your absolute path using alias (#/)
 ├── LICENSE
-└── README.md
+└── README.md # Template documentation in markdown text.
 ```
