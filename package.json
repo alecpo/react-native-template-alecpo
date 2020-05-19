@@ -1,10 +1,23 @@
 {
   "name": "react-native-template-alecpo",
-  "version": "0.0.5",
+  "version": "0.0.6",
+  "description": "alecpo React Native Template",
   "files": [
     "template",
     "template.config.js"
   ],
-  "description": "AleCPO React Native Template",
-  "author": "Alessandro Oliveira <alessandro_vzp@hotmail.com>"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alecpo/react-native-template-alecpo"
+  },
+  "keywords": [
+    "react-native",
+    "template"
+  ],
+  "author": "Alessandro Oliveira <alessandro_vzp@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alecpo/react-native-template-alecpo/issues"
+  },
+  "homepage": "https://github.com/alecpo/react-native-template-alecpo"
 }
