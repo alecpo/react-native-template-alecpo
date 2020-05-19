@@ -1,5 +1,8 @@
 
 # react-native-template-alecpo
+<p align="center">
+   <img src="https://user-images.githubusercontent.com/20051865/82272779-e913a180-9951-11ea-968e-bc8f68ad83ed.png" alt="alt       text" width="640" height="320">
+ </p>
 
 ## ⚠️ Thanks for coming, but first...~~let's take a selfie!🤳🏻~~
 You will need to ensure that the React Native development environment is working correctly. If you haven't already, I suggest taking a look [here](https://reactnative.dev/docs/environment-setup) before continuing.
