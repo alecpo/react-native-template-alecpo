@@ -44,8 +44,8 @@ def flipper_post_install(installer)
   end
 end
 
-target 'AleCPOApp' do
-  # Pods for AleCPOApp
+target 'template' do
+  # Pods for template
   pod 'FBLazyVector', :path => "../node_modules/react-native/Libraries/FBLazyVector"
   pod 'FBReactNativeSpec', :path => "../node_modules/react-native/Libraries/FBReactNativeSpec"
   pod 'RCTRequired', :path => "../node_modules/react-native/Libraries/RCTRequired"
@@ -77,7 +77,7 @@ target 'AleCPOApp' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'AleCPOAppTests' do
+  target 'templateTests' do
     inherit! :complete
     # Pods for testing
   end
@@ -94,10 +94,10 @@ target 'AleCPOApp' do
   end
 end
 
-target 'AleCPOApp-tvOS' do
-  # Pods for AleCPOApp-tvOS
+target 'template-tvOS' do
+  # Pods for template-tvOS
 
-  target 'AleCPOApp-tvOSTests' do
+  target 'template-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

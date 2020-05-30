@@ -1,4 +1,4 @@
 module.exports = {
-  placeholderName: "AleCPOApp",
+  placeholderName: "alecpo",
   templateDir: "./template",
 };
